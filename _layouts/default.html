@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8"> 
+      <meta name="author" content="{{ site.author }}">
+      <meta name="description" content="{{ site.content }}">  
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="assets/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Monoton">
+  </head>
+  <body>
+      <!--<img src="{{ page.background }}" class="background-image">-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+      <div class="content">
+        {{ content }}
+      </div>
+ 
+      {% include signup-mailing.html %}
+
+      {% include footer.html %}
+
+  </body>
+</html>
