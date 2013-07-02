@@ -10,7 +10,7 @@
 }
 
 html{
-  background: url(karhu-splash.png) no-repeat center center fixed; 
+  background: url(karhu-pond.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,7 +21,7 @@ body
 {
 	background: transparent;
 	margin-left: 40px;
-    margin-top: 180px;
+    margin-top: 350px;
 }
 
 .social-icon{

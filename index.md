@@ -2,7 +2,7 @@
 layout: default
 title: Karhu Story!
 tagline: an adventure that pulls you in
-background: assets/karhu-splash.png
+background: assets/karhu-pond.png
 ---
 
 Karhu
